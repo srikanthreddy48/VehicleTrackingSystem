@@ -1,0 +1,14 @@
+﻿@model VehicleTrackingSystem.Web.Models.Vehicle
+
+@{
+    ViewData["Title"] = "Vehicles";
+}
+
+<h2>Vehicles</h2>
+
+<h5>API Response: [@ViewBag.Json]</h5>
+
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
